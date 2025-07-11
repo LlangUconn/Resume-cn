@@ -1,26 +1,48 @@
-# macOS system files
+# macOS system file
 .DS_Store
 
-# Quarto build files
-*_files/
-*.pdf
+# Quarto output cache
+_quarto/
 
-# Quarto cache
-.quarto/
 
-# VSCode settings
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.env/
+.venv/
+
+# R and RStudio project files
+.Rproj.user/
+*.Rproj
+.Rhistory
+.RData
+
+# Jupyter notebook checkpoints (if used in .qmd)
+.ipynb_checkpoints/
+
+# VS Code workspace settings
 .vscode/
 
-# System temporary files
+# Node.js dependencies (if used)
+node_modules/
+
+# LaTeX and PDF build temp files
 *.log
 *.aux
 *.out
 *.toc
 *.tmp
-*.bak
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
 
-# Node or Python environments (可选)
-node_modules/
-__pycache__/
-.env
-.venv/
+# Editor or OS backup files
+*~
+*.swp
+*.bak
+Thumbs.db
+ehthumbs.db

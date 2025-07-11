@@ -1,11 +1,24 @@
 ---
-title: 郎朗 - 中文简历主页
-format:
+title: "郎郎的个人主页"
+format: 
   html:
     theme: flatly
-    css: styles.css
-    page-layout: full
     toc: false
+    page-layout: full
+    css: styles.css
+    embed-resources: true
+    navbar:
+      right:
+        - text: "About"
+          href: about.qmd
+        - text: "Resume"
+          href: resume.qmd
+        - text: "Projects"
+          href: "#projects"
+        - icon: github
+          href: https://github.com/LangLang
+        - icon: envelope
+          href: mailto:lang.lang@uconn.edu
 ---
 
 ## 👋 你好，我是郎朗
@@ -38,8 +51,7 @@ GPA 3.5 / 4.0，数据分析/建模/可视化方向
 ---
 ## 📄 简历下载与在线阅读
 
-<div style="display: flex; gap: 1rem;">
-  <a class="btn btn-primary" href="resume-cn.qmd" target="_blank">📄 在线阅读简历</a>
-  <a class="btn btn-success" href="resume-cn.pdf" download>📥 下载简历 PDF</a>
- 
+<div style="margin-top: 1em; margin-bottom: 2em;">
+  <a class="btn btn-success me-2" href="resume-cn.html" role="button" target="_blank">📄 在线预览简历</a>
+  <a class="btn btn-primary" href="resume-cn.pdf" role="button" target="_blank">⬇️ 下载简历PDF</a>
 </div>
