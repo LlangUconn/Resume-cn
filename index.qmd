@@ -1,0 +1,45 @@
+---
+title: 郎朗 - 中文简历主页
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+## 👋 你好，我是郎朗
+
+我就读于康涅狄格大学，经济学和统计数据科学 双学位  
+GPA 3.5 / 4.0，数据分析/建模/可视化方向  
+申请方向：数据分析师、商业分析、金融科技等领域
+
+---
+
+## 🧠 技能与优势
+
+- 编程语言：Python、R、SQL、Stata
+- 数据可视化：Tableau、Quarto、Minitab
+- 项目经验丰富，沟通与写作能力强
+- 英语流利，具备国际交流经验（德国曼海姆大学交换）
+
+---
+
+## 🛠 实习与项目（精选）
+
+### 📊 RSM China 数据分析实习生  
+- 使用 Python 与 SQL 分析运营数据  
+- 制作可视化图表，撰写洞察报告
+
+### 📈 开源数据科学项目（GitHub）  
+- 独立撰写统计学习示例与教程  
+- 涉及回归分析、分类、可视化等模块
+
+---
+## 📄 简历下载与在线阅读
+
+<div style="display: flex; gap: 1rem;">
+  <a class="btn btn-primary" href="resume-cn.qmd" target="_blank">📄 在线阅读简历</a>
+  <a class="btn btn-success" href="resume-cn.pdf" download>📥 下载简历 PDF</a>
+ 
+</div>

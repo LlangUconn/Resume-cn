@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+
+# Quarto build files
+*_files/
+*.pdf
+
+# Quarto cache
+.quarto/
+
+# VSCode settings
+.vscode/
+
+# System temporary files
+*.log
+*.aux
+*.out
+*.toc
+*.tmp
+*.bak
+
+# Node or Python environments (可选)
+node_modules/
+__pycache__/
+.env
+.venv/
